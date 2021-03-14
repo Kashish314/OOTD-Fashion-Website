@@ -1,0 +1,147 @@
+body
+{ 
+margin:0;
+padding: 0;
+background-image: linear-gradient(to bottom, #1e130c,#3c3b3f);
+
+font-size: 16px;
+color:#777;
+font-family: sans-serif;
+font-weight:300;
+}
+
+#login-box
+{
+	position:relative;
+	margin: 2%auto;
+	margin-left:300px;
+	height:455px;
+	width:700px;
+	background-color:#000;
+	box-shadow:0 2px 4px rgba(0, 0 0, 0.6);
+}
+.left-box{
+    position:absolute;
+    top: 0;
+    left:0;
+	box-sizing: border-box;
+	padding:40px;
+	width:300px;
+	height:400px;
+
+}
+h1
+{
+margin:0 0 20px 0;
+font-weight: 300;
+font-size: 28px;
+}
+input[type="text"],
+input[type="password"]
+{
+display:block;
+box-sizing: border-box;
+margin-bottom:20px;
+padding:4px;
+width:220px;
+height: 15px;
+border: none;
+outline: none;
+background: transparent;
+border-bottom: 1px solid #aaa;
+font-family: sans-serif;
+font-weight: 400;
+font-size:15px;
+transition: 0.2s ease;
+}
+
+input[type="submit"]
+{
+margin-bottom:28px;
+width:120px;
+height: 32px;
+background:#f44336;
+
+border: none;
+border-radius: 2px;
+color: #fff;
+font-family: sans-serif;
+font-weight: 500;
+text-transform: uppercase;
+transition: 0.2s ease;
+cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+background:#ff5722;
+transition:0.25 ease;
+}
+.right-box
+{
+position: absolute;
+top: 120px;
+left: 650px;
+box-sizing: border-box;
+padding: 40px;
+width: 350px;
+height: 452px;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/gir1.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+
+.right-box .signinwith
+{
+	display: block;
+	margin-bottom:40px;
+	font-size:28px;
+	color:#fff;
+	text-align :center;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+	
+button.social
+{
+	margin-bottom: 20px;
+	width:  220px;
+	margin-left: 30px;
+	height: 36px;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	transition: 0.25 ease;
+	cursor: pointer;
+}
+ 
+a:link,
+a:visited{
+color: #d2dae2;
+text-decoration: none;
+padding: 1px;
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active{
+color:#d2dae2;
+border-bottom: 1px solid #2980b9;
+
+}
+
+.facebook
+{ background-color:#32508e;
+}
+
+.twitter
+{ background-color:#55acee;
+}
+
+.google
+{ background-color:#dd4b39;
+}
+
+

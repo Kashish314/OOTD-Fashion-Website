@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="resources/css/sit.css">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1VqXjOtipJMLXPQunhN7gPuxWg5RLpV2e&hl=en" width="640" height="480"></iframe>
+  
+  <script>
+function myFunction() {
+  alert("your discount code has been sent to your email-id !");
+  window.location.href = "index.html";
+}
+</script>
+  </head>
+
+<body>
+<form method="post" name="myemailform" action="#">
+  <h1>Stay in Touch</h1>
+  <h2>Get 10% off when you subscribe to our Newsletter</h2>
+  <input id="Email" name="Email" placeholder="Email" type="text" required/>
+  <center><a class="btn btn-full" href="#" onclick="myFunction()">Get my 10% off</a></center>
+</form>
+
+</body>
+</html>
